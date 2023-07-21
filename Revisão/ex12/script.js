@@ -1,3 +1,5 @@
+/* leia 5 números e retorne o maior*/
+
 let maior = 0
 for(num = 0; num < 5; num++){
     lista = prompt()

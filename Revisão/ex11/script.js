@@ -1,14 +1,10 @@
+/* faça um progama que exiba a tabuada de um numero*/
 
-// var multiplicação = 9
-// var i = 0
-// while(i <= 10){
-//     console.log(`${multiplicação} x ${i} =`,i*multiplicação)
-//     i++
-// }
+var mult = 9
 
 for(i = 1; i <= 10; i++){
-    tabuada = multiplicação * i
-    console.log(`${multiplicação} x ${i} =`,tabuada)
+    tabuada = mult * i
+    console.log(`${mult} x ${i} =`,tabuada)
 }
 
 
