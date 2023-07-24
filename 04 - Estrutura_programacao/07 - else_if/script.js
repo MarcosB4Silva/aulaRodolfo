@@ -7,11 +7,11 @@ let n4 = parseInt(prompt())
 media = ((n1+n2+n3+n4)/4);
 
 if(media >= 7){
-    alert(`Aprovado, sua media é: ${media.toFixed}`);
+    alert(`Aprovado, sua media é: ${media.toFixed(2)}`);
 }else if( media > 5){
-    alert(`Recuperação, sua media é: ${media.toFixed}`);
+    alert(`Recuperação, sua media é: ${media.toFixed(2)}`);
 } else{
-    alert(`Reprovado, sua media é: ${media.toFixed}`);
+    alert(`Reprovado, sua media é: ${media.toFixed(2)}`);
 }
 
 // desafio + 25 freecodecamp

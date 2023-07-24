@@ -14,8 +14,8 @@ l1[4] = 'Maria'
 
 l1.push('38')
 
-let l2 = ['masqueico','mamaco']
+let l2 = ['Marcos','Minecraft']
 
-l1.concat(l2)
+l1 = l1.concat(l2)
 
 console.log(l1)
